@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBulkEmailSender", "TestBulkEmailSender\TestBulkEmailSender.csproj", "{BFDD2F89-A33D-4C99-BB1B-CE46E84C95EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBulkEmailSender", "TestBulkEmailSender\TestBulkEmailSender.csproj", "{BFDD2F89-A33D-4C99-BB1B-CE46E84C95EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkEmailSender", "BulkEmailSender\BulkEmailSender.csproj", "{98629581-CC58-4306-99E0-3693C641A465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkEmailSender", "BulkEmailSender\BulkEmailSender.csproj", "{98629581-CC58-4306-99E0-3693C641A465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEmailSender", "IEmailSender\IEmailSender.csproj", "{D8805450-4498-4FC5-B257-632FD84BDCB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEmailSender", "IEmailSender\IEmailSender.csproj", "{D8805450-4498-4FC5-B257-632FD84BDCB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectWithMoq", "TestProjectWithMoq\TestProjectWithMoq.csproj", "{368F8E28-ADE0-416D-AD04-6695AB171135}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D8805450-4498-4FC5-B257-632FD84BDCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8805450-4498-4FC5-B257-632FD84BDCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8805450-4498-4FC5-B257-632FD84BDCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368F8E28-ADE0-416D-AD04-6695AB171135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368F8E28-ADE0-416D-AD04-6695AB171135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368F8E28-ADE0-416D-AD04-6695AB171135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368F8E28-ADE0-416D-AD04-6695AB171135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
